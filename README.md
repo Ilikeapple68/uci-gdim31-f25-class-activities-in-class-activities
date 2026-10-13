@@ -23,6 +23,20 @@ Create future Devlog sub-headers with the three # symbols, then write your Devlo
 
 3. Error I get that was useful after Step 4 is missing semicolon. It is useful because missing semicolon is always a common error made in coding, and mentioning it can easily fix it without the process of finding it.
 
+
+### W3
+
+1. Table #12
+   a. For parameters I will use a string as player's dialogue, int as friendship level, and a boolean if the player knows the secret. For return type I will use a string as the character's response.
+   
+   b. For parameters I will use float as player's sanity level. For return type I will use void since the method only changes the lightdimness, and doesn't gives a answer.
+   
+   c. For parameters I will use float as the time player hits the beat. For return type I will use a boolean as whether the player accurately hit the beat or not.
+
+2. Classes are workers, objects are workplaces; only workers can go on workplaces. Class members are tools that workers use, and class methods are actions workers performs.
+
+3. The ball gets extremely light if they bounce too many times because the ball is multiplying it's color, therefore it is going to get lighter and lighter.
+
 ## Open-Source Assets
 
 ### W1
