@@ -37,9 +37,14 @@ Create future Devlog sub-headers with the three # symbols, then write your Devlo
 
 3. The ball gets extremely light if they bounce too many times because the ball is multiplying it's color, therefore it is going to get lighter and lighter.
 
-## Open-Source Assets
+### W4
 
-### W1
+table #12
+1. For collider I put on trigger on the goal only because the ball has to collide with the cat while it has to go through the goal. I added rigidbody to the cat and ball because they have have to collide to each other and bounce.
+
+2. The first time when I open the game, the cat was not moving the ball, and I fixed it because I realized I forgot to add rigidbody to the soccer ball.
+
+## Open-Source Assets
 
 * Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727
 * Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153
