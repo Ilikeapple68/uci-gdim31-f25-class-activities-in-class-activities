@@ -9,10 +9,9 @@ using UnityEngine.AI;
 public class DeerW5 : MonoBehaviour
 {
     [SerializeField] private float _moveSpeed = 1.0f;
+    [SerializeField] private Transform _target;
 
     private NavMeshAgent _navMeshAgent;
-
-    [SerializeField] private Transform _target;
 
     private void Start()
     {
