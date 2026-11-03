@@ -31,6 +31,19 @@ public class CatW5 : MonoBehaviour
         //          changing that axis?
         //      Should I modify translation with Vector addition, or multiplication,
         //          or both?
+        if (_flipWSControls)
+        {
+            float forward = Input.GetAxis("Vertical") * -1.0f;
+            Vector3 movement = new Vector3(0.0f, 0.0f, forward);
+            transform.Translate(movement * _moveSpeed * Time.deltaTime);
+        }
+        else
+        {
+            float forward = Input.GetAxis("Vertical");
+            Vector3 movement = new Vector3(0.0f, 0.0f, forward);
+            transform.Translate(movement * _moveSpeed * Time.deltaTime);
+        }
+
         //
         // STEP 2
         // After Step 1 is working, add more code to make it possible to flip
