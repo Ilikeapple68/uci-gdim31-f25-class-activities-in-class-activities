@@ -44,6 +44,10 @@ table #12
 
 2. The first time when I open the game, the cat was not moving the ball, and I fixed it because I realized I forgot to add rigidbody to the soccer ball.
 
+### W6
+
+1. First create 3 variables: float _movementspeed, Transform _target, and NavMeshAgent _navmeshagent. Second, set navmeshagent to the currcent object's navmeshagent by using GetComponent() in the Start() method. Last, use .SetDestination to set the destination to the _target's transform in the Update() method.
+
 ## Open-Source Assets
 
 * Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727
