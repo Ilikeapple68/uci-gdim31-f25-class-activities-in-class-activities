@@ -48,6 +48,11 @@ table #12
 
 1. First create 3 variables: float _movementspeed, Transform _target, and NavMeshAgent _navmeshagent. Second, set navmeshagent to the currcent object's navmeshagent by using GetComponent() in the Start() method. Last, use .SetDestination to set the destination to the _target's transform in the Update() method.
 
+### W7
+
+Plan for BatW6:
+First create 4 variables: float for speed, Transform for player, boolean for isChasing condition, and a NavMeshAgent for agent. There have to be 4 method, a start method, update method, startChasing and stopChasing methods. In the start method set NavMeshAgent to the current object and set the agent speed as the speed variable. In the update method, check whether the isChasing is true or false, if it is true, start chasing, if it is false don't chase. Last in the startChasing method, set ischasing to true, and in stopChasing method set ischasing to false.
+
 ## Open-Source Assets
 
 * Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727
