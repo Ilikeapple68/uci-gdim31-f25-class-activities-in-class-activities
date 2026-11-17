@@ -53,6 +53,10 @@ table #12
 Plan for BatW6:
 First create 4 variables: float for speed, Transform for player, boolean for isChasing condition, and a NavMeshAgent for agent. There have to be 4 method, a start method, update method, startChasing and stopChasing methods. In the start method set NavMeshAgent to the current object and set the agent speed as the speed variable. In the update method, check whether the isChasing is true or false, if it is true, start chasing, if it is false don't chase. Last in the startChasing method, set ischasing to true, and in stopChasing method set ischasing to false.
 
+### W8
+
+The problem with Step 2 is that it uses Vector3.forward. Vector3 moves player on Global Axis. Therefore I changed it to transform.forward which moves the player on Local Axis.
+
 ## Open-Source Assets
 
 * Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727
