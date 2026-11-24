@@ -57,6 +57,13 @@ First create 4 variables: float for speed, Transform for player, boolean for isC
 
 The problem with Step 2 is that it uses Vector3.forward. Vector3 moves player on Global Axis. Therefore I changed it to transform.forward which moves the player on Local Axis.
 
+### W9
+
+For this class I did:
+1. Setup a plan for my 2D game for my final.
+2. Find resources for my character sprite and animation.
+3. setup characters using the spine app.
+
 ## Open-Source Assets
 
 * Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727
